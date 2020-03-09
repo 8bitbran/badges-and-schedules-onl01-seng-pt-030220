@@ -19,5 +19,5 @@ def assign_rooms(names)
     indexplusone = index + 1 
     greeting << "Hello, #{name}! You'll be assigned to room #{indexplusone}!"
   end
-  greeting
+  return greeting
 end 
