@@ -4,18 +4,18 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end  
 
-def batch_badge_creator(names)
+def batch_badge_creator(arr)
   greetings = []
-  names.each do |name|
+  arr.each do |name|
     greetings << badge_maker(name)
   end
   
   return greetings
 end
 
-def assign_rooms(names)
+def assign_rooms(arr)
   greeting = []
-  names.each_with_index do |name, index| 
+  arr.each_with_index do |name, index| 
     room = index + 1 
     greeting << "Hello, #{name}! You'll be assigned to room #{room}!"
   end
