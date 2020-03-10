@@ -21,3 +21,5 @@ def assign_rooms(names)
   end
   return greeting
 end 
+
+def printer()
