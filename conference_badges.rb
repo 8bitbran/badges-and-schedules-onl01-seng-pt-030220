@@ -25,4 +25,5 @@ end
 def printer()
   batch_badge_creator()
   assign_rooms()
+  return greeting
 end
